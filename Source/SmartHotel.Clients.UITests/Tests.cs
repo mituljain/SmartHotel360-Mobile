@@ -54,8 +54,8 @@ namespace SmartHotel.Clients.UITests
             new BookDatesPage()
                 .Continue();
 
-            new BookHotelsPage()
-                .SelectFirstHotel();
+            //new BookHotelsPage()
+            //    .SelectFirstHotel();
 
             new BookPage()
                 .Complete();
