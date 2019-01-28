@@ -39,7 +39,7 @@ namespace SmartHotel.Clients.UITests
         }
 
         [Test]
-       /* public void BookingTest()
+        public void BookingTest()
         {
             SuccessSignInTest();
 
@@ -51,14 +51,14 @@ namespace SmartHotel.Clients.UITests
                 .SelectCity(TestSettings.City)
                 .Continue();
 
-            //new BookDatesPage()
-            //   .Continue();
+            new BookDatesPage()
+               .Continue();
 
-            //new BookHotelsPage()
-            //    .SelectFirstHotel();
+            new BookHotelsPage()
+                .SelectFirstHotel();
 
             new BookPage()
                 .Complete();
-        }*/
+        }
     }
 }
