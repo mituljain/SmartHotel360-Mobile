@@ -71,7 +71,7 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Book a room",
+                Title = "Reservation",
                 MenuItemType = MenuItemType.BookRoom,
                 ViewModelType = typeof(BookingViewModel),
                 IsEnabled = true
@@ -95,7 +95,7 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Concierge",
+                Title = "Assistance",
                 MenuItemType = MenuItemType.Concierge,
                 IsEnabled = true
             });
