@@ -16,15 +16,9 @@ namespace SmartHotel.Clients.UITests.Pages
 
         public LogInPage()
         {
-            App.WaitForElement(x => 
-            x.Property("Text")
-            .Contains("username"),
-            timeout: TimeSpan.FromSeconds(60));
-            
             emailField = x => x.Marked("username");
             passwordField = x => x.Marked("password");
             signInButton = x => x.Marked("signin");
-
         }
 
         public LogInPage EnterCredentials(string username, string password)
