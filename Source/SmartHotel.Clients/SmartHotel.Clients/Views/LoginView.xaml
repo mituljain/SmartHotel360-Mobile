@@ -281,8 +281,8 @@
                             Text="{extensions:Translate SignInMayus}"
                             AutomationId="signin"
                             Command="{Binding SignInCommand}"
-                            BackgroundColor="{StaticResource BlackColor}"
-                            TextColor="{StaticResource RedColor}" />
+                            BackgroundColor="{StaticResource RedColor}"
+                            TextColor="{StaticResource BlackColor}" />
                     </ctrls:ButtonFrame>
                     <Label 
                         Text="or"
