@@ -67,6 +67,6 @@ namespace SmartHotel.Clients.UITests
 
         public TimeSpan GestureWaitTimeout => TimeSpan.FromMinutes(1);
 
-        public TimeSpan WaitForTimeout => TimeSpan.FromMinutes(2);
+        public TimeSpan WaitForTimeout => TimeSpan.FromMinutes(1);
     }
 }
